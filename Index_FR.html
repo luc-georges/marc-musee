@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musée Testut Latarjet</title>
+    <!-- Lien vers votre fichier style.css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        /* Ajouter l'image 1.jpg en arrière-plan */
+        body {
+            background-image: url("1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Style pour limiter la taille du carousel */
+        .carousel-container {
+            max-width: 100%; /* Ajuster la largeur selon vos besoins */
+            height: 500px; /* Ajuster la hauteur selon vos besoins */
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        /* Ajuster la taille des images dans le carousel */
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* Couleur du texte pour h2 */
+        h2 {
+            color: #70D6FF;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #FF70A6;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+	h4 {
+		color: #FF70A6;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-align: justify;
+  }
+        /* Add styles for the header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #70D6FF;
+            padding: 10px;
+        }
+
+        /* Add styles for the logo */
+        header img {
+            width: 250px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        /* Add styles for the navigation links */
+        header nav a {
+            color: #FF70A6;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Add styles for the language selector buttons */
+        .language-selector button {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+     :root {
+      --primary-color: #70D6FF;
+      --secondary-color: #FF70A6;
+      --accent-color: #FF9770;
+    }
+        /* header */
+bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
+header img {
+  max-width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+header nav {
+  flex-grow: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+header nav a {
+  color: #FF70A6;
+  text-decoration: none;
+  margin: 0 10px;
+}
+    </style>
+    <link href="headers.css" rel="stylesheet">
+ 
+
+</head>
+
+<body>
+
+<main>
+
+
+    <header class="container-fluid d-flex justify-content-between flex-wrap align-items-center py-3 mb-4 border-bottom">
+  <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+  </a>
+
+<img src="LOGOMusee.jpg" alt="Logo Musée">
+  <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+    <li><a href="/" class="nav-link px-2 link-secondary">Accueil</a></li>
+    <li><a href="test2.html" class="nav-link px-2 link-dark">Visites</a></li>
+    <li><a href="#" class="nav-link px-2 link-dark">Collections</a></li>
+    <li><a href="#" class="nav-link px-2 link-dark">FAQ</a></li>
+    <li><a href="#" class="nav-link px-2 link-dark">Contact</a></li>
+  </ul>
+
+  <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+    <input type="search" class="form-control form-control-dark" placeholder="Rechercher..." aria-label="Rechercher">
+  </form>
+</header>
+</div>
+</div>
+  </div>
+
+    <!-- Code du carrousel -->
+  <section class="carousel-container">
+    <div class="carousel-container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="3.jpg" class="d-block" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="4.jpg" class="d-block" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="5.jpg" class="d-block" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+ </section>
+
+
+ <div class="container mt-5">
+    <h1 class="text-center">Bienvenue au Musée d'Histoire des Sciences Médicales</h1>
+
+    <section>
+      <h2 class="mt-5">Le projet de Musée des Sciences Médicales</h2>
+      <h3>
+        Le projet de Musée des Sciences Médicales réunit les responsables de plusieurs collections médicales lyonnaises
+        (médecine, pharmacie, anthropologie judiciaire, odontologie, biologie médicale, médecine vétérinaire...).
+        Certaines d’entre elles ont été contraintes de libérer les locaux qu’elles occupaient fin 2015. La réinstallation
+        à Rillieux-la-Pape de ces collections qui représentent la mémoire historique de la médecine et de la pharmacie
+        lyonnaise est la préfiguration de la création d'un grand musée dédié aux sciences médicales et à la santé. Une
+        fédration regroupant tous ceux qui souhaitent s'associer à cette démarche sera prochainement créée.
+      </h3>
+      <h3>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </h3>
+      <h3>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </h3>
+      <h3>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </h3>
+      <h3>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </h3>
+      <h3>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </h3>
+      <h3>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </h3>
+      <h3>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </h3>
+      <p>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </p>
+      <p>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </p>
+      <p>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </p>
+      <p>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </p>
+      <p>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </p>
+      <p>
+        Les collections concernées regroupent plusieurs dizaines de milliers d’objets, spécimens, appareils, livres anciens, archives diverses... et constituent l’un des plus riches patrimoines mondiaux dans ce domaine. Constituées depuis plusieurs siècles pour certaines, elles sont aujourd'hui menacées de dispersion, destruction, ou de prêt d’usage sans garantie de conservation pérenne. C'est ce patrimoine que nous voulons mettre en valeur, pour les professionnels de la santé, les chercheurs et le grand public.
+      </p>
+      </div>
+
+
+ <footer class="border-top" style="background-color: #FFD670; padding: 20px; color: #FF70A6;">
+    <div class="container">
+      <div class="row">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
+          </a>
+          <p class="text-body-secondary">&copy; 2023</p>
+        </div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-linkp-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
+
+    </section>

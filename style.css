@@ -1,0 +1,172 @@
+/* Réinitialisation des marges et des paddings par défaut pour tous les éléments */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Charte graphique pour un site de musée */
+body {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Utiliser "cover" pour couvrir toute la surface du cadre */
+    background-position: center;
+}
+
+/* Couleurs principales */
+:root {
+    --bordeaux-color: #6E2831;
+    --beige-color: #D5C1B2;
+    --gold-color: #C49A5F;
+    --blue-color: #70D6FF;
+    --pink-color: #FF70A6;
+    --orange-color: #FF9770;
+    --yellow-color: #FFD670;
+    --green-color: #E9FF70;
+}
+
+/* Utilisation des couleurs */
+body {
+	height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color, #F5F5F5);
+    color: var(--main-text-color, #333333);
+}
+
+header {
+    background-color: var(--beige-color);
+    padding: 10px;
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #70D6FF;
+  padding: 10px;
+  width: 100%;
+}
+
+nav {
+    background-color: var(--bordeaux-color);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: var(--beige-color);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: var(--gold-color);
+}
+
+.container {
+    padding: 20px;
+}
+
+
+
+
+/* Styles pour le sélecteur de langue */
+.language-selector {
+    display: flex;
+    align-items: center;
+}
+
+.language-selector button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.language-selector img {
+    width: 30px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+/* Gris avec des nuances de bordeaux */
+.light-bordeaux-gray {
+    background-color: #9C9C9C;
+}
+
+.medium-bordeaux-gray {
+    background-color: #808080;
+}
+
+.dark-bordeaux-gray {
+    background-color: #666666;
+}
+
+
+
+
+
+
+/* Ajouter du style pour les boutons de sélection de langue */
+.language-selector {
+    text-align: center;
+    padding: 10px;
+}
+
+.language-selector a {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px 0px;
+    background-color: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.language-selector a:hover {
+    background-color: #4A6FA5;
+}
+
+/* Your existing CSS styles */
+
+/* Add this new CSS for the language selector buttons */
+.language-selector button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 0;
+}
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+
+.header-container {
+  background-color: #70D6FF;
+  padding: 10px;
+max-width: auto;
+}
+
+.container {
+  max-width: 10%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header img {
+  width: 500px;
+  height: auto;
+  margin-right: 100px;
+}
+

@@ -1,0 +1,4 @@
+Si ces photos sont utilisé, il faut remercier leur auteur + d'ou les photos viennent:
+exemple:
+Photo de <a href="https://unsplash.com/@cadop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mathew Schwartz</a> sur <a href="https://unsplash.com/fr/s/photos/skeleton?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  photo de X X sur Unsplash
